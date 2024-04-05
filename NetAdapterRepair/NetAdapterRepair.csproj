@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NetAdapter</RootNamespace>
     <AssemblyName>NetAdapter</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
@@ -170,7 +170,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="netadapter.ico" />
-    <None Include="Resources\spoof_mac.png" />
+    <None Include="Resources\wifi.png" />
+    <None Include="Resources\dot_red_off.png" />
+    <None Include="Resources\dot_red.png" />
+    <None Include="Resources\dot_green_off.png" />
+    <None Include="Resources\dot_green.png" />
+    <None Include="Resources\spoof_mac.png">
+      <CustomToolNamespace>NetAdapter.Properties.Resources</CustomToolNamespace>
+    </None>
     <None Include="Resources\host_view.png" />
     <None Include="Resources\clear_host1.png" />
     <None Include="Resources\zoom.png" />
@@ -197,7 +204,9 @@
     <None Include="Resources\clear_static.png" />
     <None Include="Resources\clear_ssl.png" />
     <None Include="Resources\clear_host.png" />
-    <None Include="Resources\arproute_clear.png" />
+    <None Include="Resources\arproute_clear.png">
+      <CustomToolNamespace>NetAdapter.Properties.Resources</CustomToolNamespace>
+    </None>
     <None Include="Resources\advanced_repair.png" />
     <None Include="Resources\netadapter_logo.png" />
   </ItemGroup>

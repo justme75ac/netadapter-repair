@@ -1,0 +1,16 @@
+C:\github\netadapter-repair\NetAdapterRepair\bin\Release\NetAdapter.exe.config
+C:\github\netadapter-repair\NetAdapterRepair\bin\Release\NetAdapter.exe
+C:\github\netadapter-repair\NetAdapterRepair\bin\Release\NetAdapter.pdb
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapterRepair.csproj.AssemblyReference.cache
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapterRepair.csproj.SuggestedBindingRedirects.cache
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\Interop.Shell32.dll
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapterRepair.csproj.ResolveComReference.cache
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapter.FormRestartConfirmation.resources
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapter.FormMessagebox.resources
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapter.FormDialog.resources
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapter.FormMain.resources
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapter.Properties.Resources.resources
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapterRepair.csproj.GenerateResource.cache
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapterRepair.csproj.CoreCompileInputs.cache
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapter.exe
+C:\github\netadapter-repair\NetAdapterRepair\obj\Release\NetAdapter.pdb

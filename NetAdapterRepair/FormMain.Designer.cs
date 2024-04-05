@@ -280,7 +280,7 @@
             this.labelCopyright.Size = new System.Drawing.Size(96, 13);
             this.labelCopyright.TabIndex = 40;
             this.labelCopyright.Text = "www.connerb.com";
-            this.labelCopyright.Click += new System.EventHandler(this.labelCopyright_Click);
+            this.labelCopyright.Click += new System.EventHandler(this.LabelCopyright_Click);
             // 
             // comboBoxAdapters
             // 
@@ -290,7 +290,7 @@
             this.comboBoxAdapters.Name = "comboBoxAdapters";
             this.comboBoxAdapters.Size = new System.Drawing.Size(276, 21);
             this.comboBoxAdapters.TabIndex = 41;
-            this.comboBoxAdapters.SelectedValueChanged += new System.EventHandler(this.comboBoxAdapters_SelectedValueChanged);
+            this.comboBoxAdapters.SelectedValueChanged += new System.EventHandler(this.ComboBoxAdapters_SelectedValueChanged);
             // 
             // label10
             // 
@@ -327,7 +327,7 @@
             // timer1
             // 
             this.timer1.Interval = 550;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
             // labelDonate
             // 
@@ -340,7 +340,7 @@
             this.labelDonate.Size = new System.Drawing.Size(42, 13);
             this.labelDonate.TabIndex = 45;
             this.labelDonate.Text = "Donate";
-            this.labelDonate.Click += new System.EventHandler(this.labelDonate_Click);
+            this.labelDonate.Click += new System.EventHandler(this.LabelDonate_Click);
             // 
             // label13
             // 
@@ -503,7 +503,8 @@
             this.buttonSpoof.AutoSize = true;
             this.buttonSpoof.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonSpoof.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonSpoof.Image = global::NetAdapter.Properties.Resources.spoof_mac;
+            //this.buttonSpoof.Image = global::NetAdapter.Properties.Resources.spoof_mac;
+            this.buttonSpoof.Image = ((System.Drawing.Image)(resources.GetObject("spoof_mac.Image")));
             this.buttonSpoof.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonSpoof.Location = new System.Drawing.Point(603, 257);
             this.buttonSpoof.Name = "buttonSpoof";
@@ -513,13 +514,14 @@
             this.buttonSpoof.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.buttonSpoof.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonSpoof.UseVisualStyleBackColor = true;
-            this.buttonSpoof.Click += new System.EventHandler(this.buttonSpoof_Click);
+            this.buttonSpoof.Click += new System.EventHandler(this.ButtonSpoof_Click);
             // 
             // buttonViewHosts
             // 
             this.buttonViewHosts.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonViewHosts.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonViewHosts.Image = global::NetAdapter.Properties.Resources.host_view;
+            //this.buttonViewHosts.Image = global::NetAdapter.Properties.Resources.host_view;
+            this.buttonViewHosts.Image = ((System.Drawing.Image)(resources.GetObject("host_view.Image")));
             this.buttonViewHosts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonViewHosts.Location = new System.Drawing.Point(185, 233);
             this.buttonViewHosts.Name = "buttonViewHosts";
@@ -527,14 +529,15 @@
             this.buttonViewHosts.TabIndex = 69;
             this.buttonViewHosts.Text = "View";
             this.buttonViewHosts.UseVisualStyleBackColor = true;
-            this.buttonViewHosts.Click += new System.EventHandler(this.buttonViewHosts_Click);
+            this.buttonViewHosts.Click += new System.EventHandler(this.ButtonViewHosts_Click);
             // 
             // buttonPingDNS
             // 
             this.buttonPingDNS.AutoSize = true;
             this.buttonPingDNS.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonPingDNS.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonPingDNS.Image = global::NetAdapter.Properties.Resources.ping_dns;
+            //this.buttonPingDNS.Image = global::NetAdapter.Properties.Resources.ping_dns;
+            this.buttonPingDNS.Image = ((System.Drawing.Image)(resources.GetObject("ping_dns.Image"))); 
             this.buttonPingDNS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonPingDNS.Location = new System.Drawing.Point(530, 128);
             this.buttonPingDNS.Name = "buttonPingDNS";
@@ -543,14 +546,15 @@
             this.buttonPingDNS.Text = "Ping DNS";
             this.buttonPingDNS.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonPingDNS.UseVisualStyleBackColor = true;
-            this.buttonPingDNS.Click += new System.EventHandler(this.buttonPingDNS_Click);
+            this.buttonPingDNS.Click += new System.EventHandler(this.ButtonPingDNS_Click);
             // 
             // buttonPingIP
             // 
             this.buttonPingIP.AutoSize = true;
             this.buttonPingIP.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonPingIP.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonPingIP.Image = global::NetAdapter.Properties.Resources.ping_ip;
+            //this.buttonPingIP.Image = global::NetAdapter.Properties.Resources.ping_ip;
+            this.buttonPingIP.Image = ((System.Drawing.Image)(resources.GetObject("ping_ip.Image")));
             this.buttonPingIP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonPingIP.Location = new System.Drawing.Point(457, 128);
             this.buttonPingIP.Name = "buttonPingIP";
@@ -559,37 +563,40 @@
             this.buttonPingIP.Text = "Ping IP";
             this.buttonPingIP.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonPingIP.UseVisualStyleBackColor = true;
-            this.buttonPingIP.Click += new System.EventHandler(this.buttonPingIP_Click);
+            this.buttonPingIP.Click += new System.EventHandler(this.ButtonPingIP_Click);
             // 
             // buttonResetStats
             // 
             this.buttonResetStats.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonResetStats.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonResetStats.Image = global::NetAdapter.Properties.Resources.clear_monitor_output;
+            //this.buttonResetStats.Image = global::NetAdapter.Properties.Resources.clear_monitor_output;
+            this.buttonResetStats.Image = ((System.Drawing.Image)(resources.GetObject("clear_monitor_output.Image")));
             this.buttonResetStats.Location = new System.Drawing.Point(633, 555);
             this.buttonResetStats.Name = "buttonResetStats";
             this.buttonResetStats.Size = new System.Drawing.Size(28, 24);
             this.buttonResetStats.TabIndex = 64;
             this.buttonResetStats.UseVisualStyleBackColor = true;
-            this.buttonResetStats.Click += new System.EventHandler(this.buttonResetStats_Click);
+            this.buttonResetStats.Click += new System.EventHandler(this.ButtonResetStats_Click);
             // 
             // buttonRefresh
             // 
             this.buttonRefresh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonRefresh.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonRefresh.Image = global::NetAdapter.Properties.Resources.refresh_network1;
+            //this.buttonRefresh.Image = global::NetAdapter.Properties.Resources.refresh_network1;
+            this.buttonRefresh.Image = ((System.Drawing.Image)(resources.GetObject("refresh_network.Image")));
             this.buttonRefresh.Location = new System.Drawing.Point(633, 128);
             this.buttonRefresh.Name = "buttonRefresh";
             this.buttonRefresh.Size = new System.Drawing.Size(28, 24);
             this.buttonRefresh.TabIndex = 0;
             this.buttonRefresh.UseVisualStyleBackColor = true;
-            this.buttonRefresh.Click += new System.EventHandler(this.buttonRefresh_Click);
+            this.buttonRefresh.Click += new System.EventHandler(this.ButtonRefresh_Click);
             // 
             // buttonRunAll
             // 
             this.buttonRunAll.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonRunAll.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonRunAll.Image = global::NetAdapter.Properties.Resources.run_all1;
+            //this.buttonRunAll.Image = global::NetAdapter.Properties.Resources.run_all1;
+            this.buttonRunAll.Image = ((System.Drawing.Image)(resources.GetObject("run_all.Image")));
             this.buttonRunAll.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonRunAll.Location = new System.Drawing.Point(29, 553);
             this.buttonRunAll.Name = "buttonRunAll";
@@ -597,13 +604,14 @@
             this.buttonRunAll.TabIndex = 61;
             this.buttonRunAll.Text = "Run All Selected";
             this.buttonRunAll.UseVisualStyleBackColor = true;
-            this.buttonRunAll.Click += new System.EventHandler(this.buttonRunAll_Click);
+            this.buttonRunAll.Click += new System.EventHandler(this.ButtonRunAll_Click);
             // 
             // buttonServicesDefault
             // 
             this.buttonServicesDefault.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonServicesDefault.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonServicesDefault.Image = global::NetAdapter.Properties.Resources.windows_services;
+            //this.buttonServicesDefault.Image = global::NetAdapter.Properties.Resources.windows_services;
+            this.buttonServicesDefault.Image = ((System.Drawing.Image)(resources.GetObject("windows_services.Image")));
             this.buttonServicesDefault.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonServicesDefault.Location = new System.Drawing.Point(29, 523);
             this.buttonServicesDefault.Name = "buttonServicesDefault";
@@ -611,11 +619,12 @@
             this.buttonServicesDefault.TabIndex = 59;
             this.buttonServicesDefault.Text = "Set Network Windows Services Default";
             this.buttonServicesDefault.UseVisualStyleBackColor = true;
-            this.buttonServicesDefault.Click += new System.EventHandler(this.buttonServicesDefault_Click);
+            this.buttonServicesDefault.Click += new System.EventHandler(this.ButtonServicesDefault_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::NetAdapter.Properties.Resources.bannerlogo1;
+            //this.pictureBox1.Image = global::NetAdapter.Properties.Resources.bannerlogo1;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("banner_logo.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(667, 122);
@@ -627,7 +636,8 @@
             // 
             this.buttonResetInternetSecurity.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonResetInternetSecurity.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonResetInternetSecurity.Image = global::NetAdapter.Properties.Resources.reset_securityprivacy;
+            //this.buttonResetInternetSecurity.Image = global::NetAdapter.Properties.Resources.reset_securityprivacy;
+            this.buttonResetInternetSecurity.Image = ((System.Drawing.Image)(resources.GetObject("reset_securityprivacy.Image")));
             this.buttonResetInternetSecurity.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonResetInternetSecurity.Location = new System.Drawing.Point(29, 493);
             this.buttonResetInternetSecurity.Name = "buttonResetInternetSecurity";
@@ -635,13 +645,14 @@
             this.buttonResetInternetSecurity.TabIndex = 36;
             this.buttonResetInternetSecurity.Text = "Reset Internet Options Security/Privacy";
             this.buttonResetInternetSecurity.UseVisualStyleBackColor = true;
-            this.buttonResetInternetSecurity.Click += new System.EventHandler(this.buttonResetInternetSecurity_Click);
+            this.buttonResetInternetSecurity.Click += new System.EventHandler(this.ButtonResetInternetSecurity_Click);
             // 
             // buttonEnableWireless
             // 
             this.buttonEnableWireless.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonEnableWireless.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonEnableWireless.Image = global::NetAdapter.Properties.Resources.enable_wifi;
+            //this.buttonEnableWireless.Image = global::NetAdapter.Properties.Resources.enable_wifi;
+            this.buttonEnableWireless.Image = ((System.Drawing.Image)(resources.GetObject("enable_wifi.Image")));
             this.buttonEnableWireless.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonEnableWireless.Location = new System.Drawing.Point(29, 464);
             this.buttonEnableWireless.Name = "buttonEnableWireless";
@@ -649,13 +660,14 @@
             this.buttonEnableWireless.TabIndex = 35;
             this.buttonEnableWireless.Text = "Enable Wireless Adapters";
             this.buttonEnableWireless.UseVisualStyleBackColor = true;
-            this.buttonEnableWireless.Click += new System.EventHandler(this.buttonEnableWireless_Click);
+            this.buttonEnableWireless.Click += new System.EventHandler(this.ButtonEnableWireless_Click);
             // 
             // buttonEnableLAN
             // 
             this.buttonEnableLAN.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonEnableLAN.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonEnableLAN.Image = global::NetAdapter.Properties.Resources.enable_lan;
+            //this.buttonEnableLAN.Image = global::NetAdapter.Properties.Resources.enable_lan;
+            this.buttonEnableLAN.Image = ((System.Drawing.Image)(resources.GetObject("enable_lan.Image")));
             this.buttonEnableLAN.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonEnableLAN.Location = new System.Drawing.Point(29, 435);
             this.buttonEnableLAN.Name = "buttonEnableLAN";
@@ -663,13 +675,14 @@
             this.buttonEnableLAN.TabIndex = 34;
             this.buttonEnableLAN.Text = "Enable LAN Adapters";
             this.buttonEnableLAN.UseVisualStyleBackColor = true;
-            this.buttonEnableLAN.Click += new System.EventHandler(this.buttonEnableLAN_Click);
+            this.buttonEnableLAN.Click += new System.EventHandler(this.ButtonEnableLAN_Click);
             // 
             // buttonClearSSL
             // 
             this.buttonClearSSL.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonClearSSL.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonClearSSL.Image = global::NetAdapter.Properties.Resources.clear_ssl;
+            //this.buttonClearSSL.Image = global::NetAdapter.Properties.Resources.clear_ssl;
+            this.buttonClearSSL.Image = ((System.Drawing.Image)(resources.GetObject("clear_ssl.Image")));
             this.buttonClearSSL.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonClearSSL.Location = new System.Drawing.Point(29, 406);
             this.buttonClearSSL.Name = "buttonClearSSL";
@@ -677,13 +690,14 @@
             this.buttonClearSSL.TabIndex = 33;
             this.buttonClearSSL.Text = "Internet Options - Clear SSL State";
             this.buttonClearSSL.UseVisualStyleBackColor = true;
-            this.buttonClearSSL.Click += new System.EventHandler(this.buttonClearSSL_Click);
+            this.buttonClearSSL.Click += new System.EventHandler(this.ButtonClearSSL_Click);
             // 
             // buttonReloadNETBIOS
             // 
             this.buttonReloadNETBIOS.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonReloadNETBIOS.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonReloadNETBIOS.Image = global::NetAdapter.Properties.Resources.netbios_reload;
+            //this.buttonReloadNETBIOS.Image = global::NetAdapter.Properties.Resources.netbios_reload;
+            this.buttonReloadNETBIOS.Image = ((System.Drawing.Image)(resources.GetObject("netbios_reload.Image")));
             this.buttonReloadNETBIOS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonReloadNETBIOS.Location = new System.Drawing.Point(29, 377);
             this.buttonReloadNETBIOS.Name = "buttonReloadNETBIOS";
@@ -691,13 +705,14 @@
             this.buttonReloadNETBIOS.TabIndex = 32;
             this.buttonReloadNETBIOS.Text = "NetBIOS Reload and Release";
             this.buttonReloadNETBIOS.UseVisualStyleBackColor = true;
-            this.buttonReloadNETBIOS.Click += new System.EventHandler(this.buttonReloadNETBIOS_Click);
+            this.buttonReloadNETBIOS.Click += new System.EventHandler(this.ButtonReloadNETBIOS_Click);
             // 
             // buttonClearARP
             // 
             this.buttonClearARP.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonClearARP.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonClearARP.Image = global::NetAdapter.Properties.Resources.arproute_clear;
+            //this.buttonClearARP.Image = global::NetAdapter.Properties.Resources.arproute_clear;
+            this.buttonClearARP.Image = ((System.Drawing.Image)(resources.GetObject("arproute_clear.Image")));
             this.buttonClearARP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonClearARP.Location = new System.Drawing.Point(29, 348);
             this.buttonClearARP.Name = "buttonClearARP";
@@ -705,13 +720,14 @@
             this.buttonClearARP.TabIndex = 31;
             this.buttonClearARP.Text = "Clear ARP/Route Table";
             this.buttonClearARP.UseVisualStyleBackColor = true;
-            this.buttonClearARP.Click += new System.EventHandler(this.buttonClearARP_Click);
+            this.buttonClearARP.Click += new System.EventHandler(this.ButtonClearARP_Click);
             // 
             // buttonFlushDNS
             // 
             this.buttonFlushDNS.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonFlushDNS.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonFlushDNS.Image = global::NetAdapter.Properties.Resources.dns_flush;
+            //this.buttonFlushDNS.Image = global::NetAdapter.Properties.Resources.dns_flush;
+            this.buttonFlushDNS.Image = ((System.Drawing.Image)(resources.GetObject("dns_flush.Image")));
             this.buttonFlushDNS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonFlushDNS.Location = new System.Drawing.Point(29, 319);
             this.buttonFlushDNS.Name = "buttonFlushDNS";
@@ -719,13 +735,14 @@
             this.buttonFlushDNS.TabIndex = 30;
             this.buttonFlushDNS.Text = "Flush DNS Cache";
             this.buttonFlushDNS.UseVisualStyleBackColor = true;
-            this.buttonFlushDNS.Click += new System.EventHandler(this.buttonFlushDNS_Click);
+            this.buttonFlushDNS.Click += new System.EventHandler(this.ButtonFlushDNS_Click);
             // 
             // buttonGoogleDNS
             // 
             this.buttonGoogleDNS.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonGoogleDNS.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonGoogleDNS.Image = global::NetAdapter.Properties.Resources.google_dns;
+            //this.buttonGoogleDNS.Image = global::NetAdapter.Properties.Resources.google_dns;
+            this.buttonGoogleDNS.Image = ((System.Drawing.Image)(resources.GetObject("google_dns.Image")));
             this.buttonGoogleDNS.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonGoogleDNS.Location = new System.Drawing.Point(29, 290);
             this.buttonGoogleDNS.Name = "buttonGoogleDNS";
@@ -733,13 +750,14 @@
             this.buttonGoogleDNS.TabIndex = 29;
             this.buttonGoogleDNS.Text = "Change to Google DNS";
             this.buttonGoogleDNS.UseVisualStyleBackColor = true;
-            this.buttonGoogleDNS.Click += new System.EventHandler(this.buttonGoogleDNS_Click);
+            this.buttonGoogleDNS.Click += new System.EventHandler(this.ButtonGoogleDNS_Click);
             // 
             // buttonSetDHCP
             // 
             this.buttonSetDHCP.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonSetDHCP.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonSetDHCP.Image = global::NetAdapter.Properties.Resources.clear_static;
+            //this.buttonSetDHCP.Image = global::NetAdapter.Properties.Resources.clear_static;
+            this.buttonSetDHCP.Image = ((System.Drawing.Image)(resources.GetObject("clear_static.Image")));
             this.buttonSetDHCP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonSetDHCP.Location = new System.Drawing.Point(29, 261);
             this.buttonSetDHCP.Name = "buttonSetDHCP";
@@ -747,13 +765,14 @@
             this.buttonSetDHCP.TabIndex = 28;
             this.buttonSetDHCP.Text = "Clear Static IP Settings (enable DHCP)";
             this.buttonSetDHCP.UseVisualStyleBackColor = true;
-            this.buttonSetDHCP.Click += new System.EventHandler(this.buttonSetDHCP_Click);
+            this.buttonSetDHCP.Click += new System.EventHandler(this.ButtonSetDHCP_Click);
             // 
             // buttonClearHosts
             // 
             this.buttonClearHosts.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonClearHosts.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonClearHosts.Image = global::NetAdapter.Properties.Resources.clear_host1;
+            //this.buttonClearHosts.Image = global::NetAdapter.Properties.Resources.clear_host1;
+            this.buttonClearHosts.Image = ((System.Drawing.Image)(resources.GetObject("clear_host.Image")));
             this.buttonClearHosts.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonClearHosts.Location = new System.Drawing.Point(29, 232);
             this.buttonClearHosts.Name = "buttonClearHosts";
@@ -761,13 +780,14 @@
             this.buttonClearHosts.TabIndex = 27;
             this.buttonClearHosts.Text = "Clear Hosts File";
             this.buttonClearHosts.UseVisualStyleBackColor = true;
-            this.buttonClearHosts.Click += new System.EventHandler(this.buttonClearHosts_Click);
+            this.buttonClearHosts.Click += new System.EventHandler(this.ButtonClearHosts_Click);
             // 
             // buttonRenewDHCP
             // 
             this.buttonRenewDHCP.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonRenewDHCP.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonRenewDHCP.Image = global::NetAdapter.Properties.Resources.release_renew;
+            //this.buttonRenewDHCP.Image = global::NetAdapter.Properties.Resources.release_renew;
+            this.buttonRenewDHCP.Image = ((System.Drawing.Image)(resources.GetObject("release_renew.Image")));
             this.buttonRenewDHCP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonRenewDHCP.Location = new System.Drawing.Point(29, 203);
             this.buttonRenewDHCP.Name = "buttonRenewDHCP";
@@ -775,7 +795,7 @@
             this.buttonRenewDHCP.TabIndex = 3;
             this.buttonRenewDHCP.Text = "Release and Renew DHCP Address";
             this.buttonRenewDHCP.UseVisualStyleBackColor = true;
-            this.buttonRenewDHCP.Click += new System.EventHandler(this.buttonRenewDHCP_Click);
+            this.buttonRenewDHCP.Click += new System.EventHandler(this.ButtonRenewDHCP_Click);
             // 
             // buttonRepair
             // 
@@ -788,7 +808,7 @@
             this.buttonRepair.Size = new System.Drawing.Size(253, 48);
             this.buttonRepair.TabIndex = 1;
             this.buttonRepair.Text = "Advanced Repair";
-            this.buttonRepair.Click += new System.EventHandler(this.buttonRepair_Click);
+            this.buttonRepair.Click += new System.EventHandler(this.ButtonRepair_Click);
             // 
             // FormMain
             // 

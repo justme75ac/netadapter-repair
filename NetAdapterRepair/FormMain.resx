@@ -117,57 +117,57 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="statusStripLog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 3</value>
-  </metadata>
-  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>146, 3</value>
-  </metadata>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>236, 3</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="statusStripLog.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 3</value>
+  </data>
+  <data name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>146, 3</value>
+  </data>
+  <data name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>236, 3</value>
+  </data>
   <data name="buttonRepair.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
-        gg==
+        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
 </value>
   </data>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
     <value>25</value>
-  </metadata>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAEBAAAAAAIABoBAAAZgAAACAgAAAAACAAqBAAAM4EAAAwMAAAAAAgAKglAAB2FQAAQEAAAAAA
@@ -6339,5 +6339,147 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="arproute_clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\arproute_clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\arrow_out.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_refresh_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\arrow_refresh_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_rotate_clockwise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\arrow_rotate_clockwise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asterisk_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\asterisk_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\banner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bannerlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bannerlogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bannerlogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\bannerlogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book_key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\book_key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_host" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\clear_host.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_host1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\clear_host1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_monitor_output" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\clear_monitor_output.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_ssl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\clear_ssl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\clear_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dns_flush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dns_flush.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dot_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dot_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dot_green_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dot_green_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dot_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dot_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dot_red_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dot_red_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enable_lan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\enable_lan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enable_wifi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\enable_wifi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\google.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="google_dns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\google_dns.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="host_view" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\host_view.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_repair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\icon_repair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_repair1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\icon_repair1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lan_adapter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\lan_adapter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo Secondary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Logo Secondary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netadapter_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\netadapter_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netadapter_monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\netadapter_monitor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netbios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\netbios.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netbios_reload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\netbios_reload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ping_dns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ping_dns.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ping_ip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ping_ip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_network" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\refresh_network.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_network1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\refresh_network1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="release_renew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\release_renew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reset_securityprivacy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\reset_securityprivacy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="run_all" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\run_all.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="run_all1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\run_all1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spoof_mac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\spoof_mac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssl_lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ssl_lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wifi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\wifi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wifi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\wifi1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="windows_services" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\windows_services.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\zoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

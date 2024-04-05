@@ -570,7 +570,7 @@ namespace NetAdapter
             return nicDefault;
         }
 
-        private void buttonRepair_Click(object sender, EventArgs e)
+        private void ButtonRepair_Click(object sender, EventArgs e)
         {
             DialogResult dlg;
             dlg = MessageBox.Show("You are about to run the following:\n"
@@ -833,7 +833,7 @@ namespace NetAdapter
 
 
         // Release and Renew using IPCONFIG command line tool. Log errors to log file, if any.
-        private void buttonRenewDHCP_Click(object sender, EventArgs e)
+        private void ButtonRenewDHCP_Click(object sender, EventArgs e)
         {
             DoRenewDHCP();
         }
@@ -864,14 +864,14 @@ namespace NetAdapter
             ChangeStatus("Ready", 0);
         }
 
-        private void buttonRefresh_Click(object sender, EventArgs e)
+        private void ButtonRefresh_Click(object sender, EventArgs e)
         {
             RefreshNetworkInfo(true);
         }
 
 
         // Flush and Re-register DNS Cache using IPCONFIG command line tool. Log errors to log file, if any.
-        private void buttonFlushDNS_Click(object sender, EventArgs e)
+        private void ButtonFlushDNS_Click(object sender, EventArgs e)
         {
             DoFlushDNS();
         }
@@ -904,7 +904,7 @@ namespace NetAdapter
 
 
         // Clear ARP cache using ARP command line tool. Log errors to log file, if any.
-        private void buttonClearARP_Click(object sender, EventArgs e)
+        private void ButtonClearARP_Click(object sender, EventArgs e)
         {
             DoClearARP();
         }
@@ -1029,7 +1029,7 @@ namespace NetAdapter
         }
 
 
-        private void buttonReloadNETBIOS_Click(object sender, EventArgs e)
+        private void ButtonReloadNETBIOS_Click(object sender, EventArgs e)
         {
             DoReloadNETBIOS();
         }
@@ -1061,7 +1061,7 @@ namespace NetAdapter
         }
 
 
-        private void buttonEnableLAN_Click(object sender, EventArgs e)
+        private void ButtonEnableLAN_Click(object sender, EventArgs e)
         {
             DoEnableLAN();
         }
@@ -1093,7 +1093,7 @@ namespace NetAdapter
         }
 
 
-        private void buttonEnableWireless_Click(object sender, EventArgs e)
+        private void ButtonEnableWireless_Click(object sender, EventArgs e)
         {
             DoEnableWireless();
         }
@@ -1124,7 +1124,7 @@ namespace NetAdapter
             ChangeStatus("Ready", 0);
         }
         
-        private void buttonViewHosts_Click(object sender, EventArgs e)
+        private void ButtonViewHosts_Click(object sender, EventArgs e)
         {
             DoViewHosts();
         }
@@ -1135,7 +1135,7 @@ namespace NetAdapter
             RunCommand("notepad.exe", sHostsPath);
         }
 
-        private void buttonClearHosts_Click(object sender, EventArgs e)
+        private void ButtonClearHosts_Click(object sender, EventArgs e)
         {
             DoClearHosts();
         }
@@ -1202,7 +1202,7 @@ namespace NetAdapter
         }
 
 
-        private void buttonSetDHCP_Click(object sender, EventArgs e)
+        private void ButtonSetDHCP_Click(object sender, EventArgs e)
         {
             DoSetDHCP();
         }
@@ -1295,7 +1295,7 @@ namespace NetAdapter
         }
 
 
-        private void buttonGoogleDNS_Click(object sender, EventArgs e)
+        private void ButtonGoogleDNS_Click(object sender, EventArgs e)
         {
             DoGoogleDNS();
         }
@@ -1343,7 +1343,7 @@ namespace NetAdapter
         }
 
         
-        private void buttonClearSSL_Click(object sender, EventArgs e)
+        private void ButtonClearSSL_Click(object sender, EventArgs e)
         {
             DoClearSSL();
         }
@@ -1365,7 +1365,7 @@ namespace NetAdapter
             ChangeStatus("Ready", 0);
         }
 
-        private void buttonResetInternetSecurity_Click(object sender, EventArgs e)
+        private void ButtonResetInternetSecurity_Click(object sender, EventArgs e)
         {
             DoResetInternetSecurity();
         }
@@ -1419,7 +1419,7 @@ namespace NetAdapter
 
         // Event handler for combobox. Called when the user selects a different network adapter
         // Using the adapter combo box
-        private void comboBoxAdapters_SelectedValueChanged(object sender, EventArgs e)
+        private void ComboBoxAdapters_SelectedValueChanged(object sender, EventArgs e)
         {
             NetworkInterface nic = GetNic((string)comboBoxAdapters.SelectedItem);
             if (nic != null)
@@ -1475,18 +1475,18 @@ namespace NetAdapter
         }
 
         // Open URL when copyright link is clicked
-        private void labelCopyright_Click(object sender, EventArgs e)
+        private void LabelCopyright_Click(object sender, EventArgs e)
         {
             Process.Start("http://www.connerb.com/");
         }
 
-        private void labelDonate_Click(object sender, EventArgs e)
+        private void LabelDonate_Click(object sender, EventArgs e)
         {
             Process.Start("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XQUA8QZ8WASS4");
         }
 
         // Timer for updating the sent/received stats for the selected network adapter every second
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Timer1_Tick(object sender, EventArgs e)
         {
             //pictureSent.Image = imageList1.Images[0];
             //pictureRecv.Image = imageList1.Images[2];
@@ -1524,12 +1524,12 @@ namespace NetAdapter
             LogMessage("User closed the application");
         }
 
-        private void cbAdditionalAll_CheckedChanged(object sender, EventArgs e)
+        private void CBAdditionalAll_CheckedChanged(object sender, EventArgs e)
         {
             //setCheckboxStates(cbAdditionalAll.Checked);
         }
 
-        private void setCheckboxStates(bool state)
+        private void SetCheckboxStates(bool state)
         {
             cbRenewDHCP.Checked = state;
             cbClearHosts.Checked = state;
@@ -1546,7 +1546,7 @@ namespace NetAdapter
             //cbAdditionalAll.Checked = state;
         }
 
-        private void buttonServicesDefault_Click(object sender, EventArgs e)
+        private void ButtonServicesDefault_Click(object sender, EventArgs e)
         {
             DoServicesDefault();
         }
@@ -1663,7 +1663,7 @@ namespace NetAdapter
             ChangeStatus("Ready", 0);
         }
 
-        private void buttonRunAll_Click(object sender, EventArgs e)
+        private void ButtonRunAll_Click(object sender, EventArgs e)
         {
             if (cbRenewDHCP.Checked) {
                 DoRenewDHCP();
@@ -1713,10 +1713,10 @@ namespace NetAdapter
                 DoServicesDefault();
             }
 
-            setCheckboxStates(false);
+            SetCheckboxStates(false);
         }
 
-        private void buttonResetStats_Click(object sender, EventArgs e)
+        private void ButtonResetStats_Click(object sender, EventArgs e)
         {
             NetworkInterface nic = GetNic((string)comboBoxAdapters.SelectedItem);
             if (nic != null)
@@ -1765,13 +1765,13 @@ namespace NetAdapter
             }
         }
 
-        private void buttonPingIP_Click(object sender, EventArgs e)
+        private void ButtonPingIP_Click(object sender, EventArgs e)
         {
             DoPing("Google", "74.125.239.128");
             DoPing("Cloudflare", "198.41.213.157");
         }
 
-        private void buttonPingDNS_Click(object sender, EventArgs e)
+        private void ButtonPingDNS_Click(object sender, EventArgs e)
         {
             DoPing("Google", "google.com");
             DoPing("Cloudflare", "cloudflare.com");
@@ -1800,7 +1800,7 @@ namespace NetAdapter
         }
 
 
-        private void buttonSpoof_Click(object sender, EventArgs e)
+        private void ButtonSpoof_Click(object sender, EventArgs e)
         {
             DoSpoof();
         }

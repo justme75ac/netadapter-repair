@@ -1,0 +1,107 @@
+05.04.2024 11:50:28: Microsoft Windows 11 Pro 64-bit 
+05.04.2024 11:50:28: NetAdapter Repair All in One v1.2 Loaded
+05.04.2024 11:50:28: Application opened as an Administrator
+05.04.2024 11:50:33: Getting network information
+05.04.2024 11:50:38: Getting information for 'WLAN'
+05.04.2024 11:50:39: Network information updated
+05.04.2024 11:50:42: 
+Windows-IP-Konfiguration
+
+   Hostname  . . . . . . . . . . . . : DESKTOP-60DPV0M
+   Prim„res DNS-Suffix . . . . . . . : 
+   Knotentyp . . . . . . . . . . . . : Hybrid
+   IP-Routing aktiviert  . . . . . . : Nein
+   WINS-Proxy aktiviert  . . . . . . : Nein
+   DNS-Suffixsuchliste . . . . . . . : fritz.box
+
+Unbekannter Adapter LAN-Verbindung:
+
+   Verbindungsspezifisches DNS-Suffix: 
+   Beschreibung. . . . . . . . . . . : TAP-Windows Adapter V9
+   Physische Adresse . . . . . . . . : 00-FF-DF-0B-63-6C
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+   Verbindungslokale IPv6-Adresse  . : fe80::bcf2:d7b:2f8b:c76d%35(Bevorzugt) 
+   IPv4-Adresse  . . . . . . . . . . : 192.168.14.2(Bevorzugt) 
+   Subnetzmaske  . . . . . . . . . . : 255.255.255.0
+   Lease erhalten. . . . . . . . . . : Donnerstag, 4. April 2024 23:37:45
+   Lease l„uft ab. . . . . . . . . . : Freitag, 4. April 2025 23:37:45
+   Standardgateway . . . . . . . . . : 
+   DHCP-Server . . . . . . . . . . . : 192.168.14.0
+   DHCPv6-IAID . . . . . . . . . . . : 1124138975
+   DHCPv6-Client-DUID. . . . . . . . : 00-01-00-01-29-F6-1A-E1-D0-AB-D5-47-FF-86
+   NetBIOS ber TCP/IP . . . . . . . : Aktiviert
+
+Drahtlos-LAN-Adapter LAN-Verbindung* 1:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix: 
+   Beschreibung. . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physische Adresse . . . . . . . . : D0-AB-D5-47-FF-87
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+
+Drahtlos-LAN-Adapter LAN-Verbindung* 2:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix: 
+   Beschreibung. . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physische Adresse . . . . . . . . : D2-AB-D5-47-FF-86
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+
+Drahtlos-LAN-Adapter WLAN:
+
+   Verbindungsspezifisches DNS-Suffix: fritz.box
+   Beschreibung. . . . . . . . . . . : Intel(R) Dual Band Wireless-AC 8265
+   Physische Adresse . . . . . . . . : D0-AB-D5-47-FF-86
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+   IPv4-Adresse  . . . . . . . . . . : 10.200.0.230(Bevorzugt) 
+   Subnetzmaske  . . . . . . . . . . : 255.255.240.0
+   Lease erhalten. . . . . . . . . . : Montag, 1. April 2024 01:55:33
+   Lease l„uft ab. . . . . . . . . . : Sonntag, 14. April 2024 22:13:00
+   Standardgateway . . . . . . . . . : 10.200.0.5
+   DHCP-Server . . . . . . . . . . . : 10.200.0.5
+   DNS-Server  . . . . . . . . . . . : 10.200.0.5
+   NetBIOS ber TCP/IP . . . . . . . : Aktiviert
+
+Ethernet-Adapter Bluetooth-Netzwerkverbindung:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix: 
+   Beschreibung. . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physische Adresse . . . . . . . . : D0-AB-D5-47-FF-8A
+   DHCP aktiviert. . . . . . . . . . : Ja
+   Autokonfiguration aktiviert . . . : Ja
+
+Mobiler Breitbandadapter Mobilfunk:
+
+   Medienstatus. . . . . . . . . . . : Medium getrennt
+   Verbindungsspezifisches DNS-Suffix: 
+   Beschreibung. . . . . . . . . . . : Generic Mobile Broadband Adapter
+   Physische Adresse . . . . . . . . : 98-81-96-57-4A-43
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+
+Ethernet-Adapter vEthernet (Default Switch):
+
+   Verbindungsspezifisches DNS-Suffix: 
+   Beschreibung. . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter
+   Physische Adresse . . . . . . . . : 00-15-5D-34-9E-31
+   DHCP aktiviert. . . . . . . . . . : Nein
+   Autokonfiguration aktiviert . . . : Ja
+   Verbindungslokale IPv6-Adresse  . : fe80::cc7e:e97c:8644:7f1a%32(Bevorzugt) 
+   IPv4-Adresse  . . . . . . . . . . : 172.17.160.1(Bevorzugt) 
+   Subnetzmaske  . . . . . . . . . . : 255.255.240.0
+   Standardgateway . . . . . . . . . : 
+   DHCPv6-IAID . . . . . . . . . . . : 536876381
+   DHCPv6-Client-DUID. . . . . . . . : 00-01-00-01-29-F6-1A-E1-D0-AB-D5-47-FF-86
+   NetBIOS ber TCP/IP . . . . . . . : Aktiviert
+
+05.04.2024 11:51:20: Clearing ARP cache
+05.04.2024 11:51:24: Cleared ARP Table cache
+05.04.2024 11:51:35: Route tables cleared
+05.04.2024 11:51:36: Clearing the routing tables of all gateway entries
+05.04.2024 11:51:38: Cleared ARP cache, routing tables and IP configuration
+05.04.2024 11:51:42: Restart canceled by user
